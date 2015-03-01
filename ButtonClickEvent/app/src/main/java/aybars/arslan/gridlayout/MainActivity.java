@@ -28,6 +28,17 @@ public class MainActivity extends ActionBarActivity {
                 }
             }
         );
+
+        btnAybars.setOnLongClickListener(
+                //Butona uzun tıklandiginda asagidaki fonksiyonumuz cagrilacak
+                new Button.OnLongClickListener(){
+                    public boolean onLongClick(View v){
+                        TextView tvAybars = (TextView)findViewById(R.id.tvAybars);
+                        tvAybars.setText("That was a long click !!");
+                        return true;
+                    }
+                }
+        );
     }
 
 
