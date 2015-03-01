@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">GEvent Handling</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="message_text">Hello !</string>
+    <string name="button_text">Click</string>
+</resources>
